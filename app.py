@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():  # put application's code here
-    return 'Hello World flask api!'
+    return 'Hello eusebio this is custom domain!'
 
 @app.route('/new')
 def world():  # put application's code here
