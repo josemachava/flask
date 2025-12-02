@@ -11,6 +11,10 @@ def hello_world():  # put application's code here
 def world():  # put application's code here
     return 'Hello new route flask api!'
 
+@app.route('/deployment')
+def world():  # put application's code here
+    return 'Hello new route flask api!'
+
 @app.route('/new/here')
 def helloworld():  # put application's code here
     return 'Hello new route flask api!'
