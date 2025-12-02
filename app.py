@@ -8,7 +8,7 @@ def hello_world():  # put application's code here
     return 'Hello eusebio custom domain is dope this is custom domain!'
 
 @app.route('/new')
-def world():  # put application's code here
+def world_hello():  # put application's code here
     return 'Hello new route flask api!'
 
 @app.route('/deployment')
